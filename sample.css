@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: grey;
+}
+
+header {
+  margin: auto 40px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  margin: auto 40px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
